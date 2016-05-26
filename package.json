@@ -1,0 +1,19 @@
+{
+  "name": "clicks-authentication",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jhonny",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha 'server/test/**/*.js'",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}

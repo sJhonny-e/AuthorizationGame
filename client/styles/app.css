@@ -1,0 +1,23 @@
+
+html, body, .container {
+	height: 100%;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+@media(min-width: 600px) {
+	body {
+		font-family: Verdana;
+	} 
+}
+
+.panel-heading {
+	background-color: #d9edf7;
+}
+
+#click-area {
+	background-color: gray;
+	height: 80%;
+}
